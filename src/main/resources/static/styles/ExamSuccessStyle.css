@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
+    letter-spacing: 0.125rem;
+}
+
+span {
+    font-size: clamp(1rem, 1vw, 2rem);
+    letter-spacing: 0.1rem;
+}
+
+a {
+    font-size: clamp(1.25rem, 1.75vw, 3rem);
+    letter-spacing: 0.125rem;
+    margin: clamp(1rem, 1vw, 2rem);
+}

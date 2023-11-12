@@ -1,0 +1,42 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
+    letter-spacing: 0.125rem;
+}
+
+h3 {
+    font-size: clamp(1rem, 1vw, 2rem);
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 0px 1rem;
+}
+
+.link-container {
+    margin-top:10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+a {
+    width: 300px;    
+    text-align: center;
+    font-size: clamp(1.25rem, 1.75vw, 3rem);
+    letter-spacing: 0.125rem;
+    margin: clamp(1rem, 1vw, 2rem);    
+}

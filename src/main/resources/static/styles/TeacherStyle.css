@@ -1,0 +1,63 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 2.5vw, 4rem);
+    letter-spacing: 0.125rem;
+}
+
+h3 {
+    font-size: clamp(1rem, 1vw, 2rem);
+    letter-spacing: 0.1rem;
+}
+
+form {
+    width: clamp(300px, 30vw, 1080px);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    font-size: clamp(1rem, 1vw, 2rem);
+    letter-spacing: 0.075rem;
+}
+
+input {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(1rem, 1vw, 2rem);
+    line-height: clamp(1.5rem, 1.25vw, 2.25rem);
+    padding: clamp(0.5rem, 0.25vw, 1rem);
+    letter-spacing: 0.075rem;
+}
+
+button {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(1rem, 1vw, 2rem);
+    font-weight: bold;
+    line-height: clamp(1.5rem, 1.25vw, 2.25rem);
+    padding: clamp(0.5rem, 0.25vw, 1rem);
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.stepBack {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: clamp(1.25rem, 1.75vw, 3rem);
+    letter-spacing: 0.125rem;
+}
